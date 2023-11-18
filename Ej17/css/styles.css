@@ -1,0 +1,104 @@
+body{
+    min-height: 100%;
+    margin: 0;
+    background-image: url("../imgs/ac.jpg");
+    text-align: center;
+}
+body *{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+div div{
+    width: 75%;
+    height: 75%;
+}
+.div_img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+#div1{
+    background-image: url("../imgs/back_mantel.jpg");
+}
+#div2{
+    background-color: transparent;
+}
+#div2 div{
+    text-align: center;
+    background-image: url("../imgs/back_mantel.jpg");
+    background-position: center;
+}
+#div3{
+    background-image: url("../imgs/back_mantel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#div4{
+    background-color: white;
+}
+#div4 div{
+    text-align: center;
+    background-image: url("../imgs/back_mantel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#div5{
+    background-image: url("../imgs/dh.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+#div6{
+    background-color: white;
+}
+
+#div6 div{
+    background-image: url("../imgs/dh.jpg");
+    background-size: 100%;
+    background-position: center;
+
+}
+#div7{
+    background-repeat: no-repeat;
+    background-image: url("../imgs/dh_2.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+#div8{
+    background-image: url("../imgs/dh_3.jpg");
+    background-size: 51%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#div9{
+    background: linear-gradient(to right, #CEF953, #5B6B44);
+}
+
+#div10{
+    background: linear-gradient(to bottom, #E9AC97 , #792702 80% 90%, #AF6042);
+}
+
+#div11{
+    background: linear-gradient(to bottom, #E4E6CD , #377532);
+}
+
+#div12{
+    background: linear-gradient(to bottom, transparent , #367433);
+}

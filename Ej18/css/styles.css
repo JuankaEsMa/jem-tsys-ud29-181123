@@ -1,0 +1,21 @@
+#div_anterior, #div_posterior{
+    width: 200px;
+    height: 100px;
+    background-color: #A4D3FF;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid blue;
+}
+#div_anterior,#div_prueba,#div_posterior{
+    background-color: #A4D3FF;
+    background-image: url("../imgs/f01.png"), url("../imgs/f02.png"), url("../imgs/f03.png");
+    background-position: bottom left, bottom left, top left;
+    background-repeat: repeat-x, no-repeat, repeat-x;
+}
+#div_prueba{
+    width: 440px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 40px;
+    border: 4px solid red;
+}
