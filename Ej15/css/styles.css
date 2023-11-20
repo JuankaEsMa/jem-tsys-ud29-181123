@@ -1,0 +1,16 @@
+.letras{
+    list-style-type: lower-alpha;
+}
+.numeros_romanos{
+    list-style-type: upper-roman;
+}
+p{
+    margin: 0;
+}
+ol{
+    margin: 0;
+}
+li span{
+    margin-left: 20px ;
+}
+

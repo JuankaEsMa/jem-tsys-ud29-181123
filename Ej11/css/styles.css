@@ -1,0 +1,17 @@
+table{
+    border: 1px solid #318EB1;
+}
+td,th{
+    border: 2px solid #318EB1;
+}
+th{
+    background-color: #003333;
+    color: white;
+    width: 120px;
+}
+tr:nth-last-child(even){
+    background-color: #99CC99;
+}
+tr:nth-last-child(odd){
+    background-color: #CCFFCC;
+}

@@ -1,0 +1,27 @@
+table{
+    border: 1px solid #318EB1;
+    width: 100%;
+    background-color: rgb(186, 186, 186);
+    font-weight: bold;
+}
+td,th{
+    border: 2px solid #318EB1;
+    background-color: white;
+}
+th:nth-child(1){
+    background-color: #99FE99;
+}
+#celda2{
+    background-color: #65FFFF;
+}
+#celda6{
+    background-color: #FF99FF;
+    vertical-align: bottom;
+    text-align: right;
+
+}
+.colorRed{
+    color: red;
+    text-align: center;
+}
+
